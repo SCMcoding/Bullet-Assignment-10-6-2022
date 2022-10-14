@@ -7,7 +7,7 @@ using System.Collections;
 public class Bullet : MonoBehaviour
 { 
 public GameObject projectile;
-    public float projectileForce = 1000f;
+    public float projectileForce = 10000f;
 
     public void Onfire(InputAction.CallbackContext context)
     {
